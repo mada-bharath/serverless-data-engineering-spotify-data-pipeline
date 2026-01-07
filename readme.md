@@ -1,4 +1,4 @@
-Spotify serverless data engineering pipeline
+## Spotify serverless data engineering pipeline
 
 ## Project Overview :
 This project demonstrates a serverless data engineering pipeline that extracts music data from the Spotify API, transforms it using AWS Lambda, and enables analytics using Amazon Athena.
@@ -87,7 +87,7 @@ Extract → Transform → Load
 
 4. Build dashboards using Amazon QuickSight
 
-Author:
+# Author:
 
 MADA Bharath Reddy
 Aspiring Data Engineer
