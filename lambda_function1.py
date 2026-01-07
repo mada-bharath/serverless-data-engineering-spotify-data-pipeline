@@ -15,7 +15,7 @@ def lambda_handler(event, context):
     sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
     playlists = sp.user_playlists('spotify')
 
-    playlist_link = "https://open.spotify.com/playlist/45Lryho7oYdwwlWcQryTA8"
+    playlist_link = <your spotify playlist_link>
     playlist_uri=playlist_link.split("/")[-1]
 
     spotify_data = sp.playlist_tracks(playlist_uri)
